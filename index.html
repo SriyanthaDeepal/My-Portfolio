@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sriyantha Deepal Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa5d35af18.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">            
+            <h1>Hi, I'm <span>Sriyantha</span></h1>
+            <p>Undergraduate at University of Sri Jayawardenepura</p>
+        </div>
+    </div>
+</div>
+<!-------------------------About ------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/sriyantha4.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Currently, I am an undergraduate in Information and Communication
+                    Technology (Software) at the Faculty of Technology, University of Sri
+                    Jayewardenepura. Also, Undergraduate in BTech HND in Computing
+                    (Networking) at Esoft Metro Campus. I am very interested in becoming a
+                    programmer and I have good programming skills and knowledge. I look
+                    forward to working in a well-reputed company as an intern to get
+                    experience, sharpen my skills and gain new skills related to Software
+                    Technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('personalinformation')">Personal Information</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certificate')">Certificate & Courses</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="personalinformation">
+                        <ul>
+                            <li><span>Full Name:</span><br>Adhikari Arachchige Sriyantha Deepal</li>
+                            <li><span>Date of Birth:</span><br>12 January 2000</li>
+                            <li><span>NIC: </span><br>200001201814</li>
+                            <li><span>Gender:</span><br>Male</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Sri Jayawardenepura</span><br>2020 - Present <br> 
+                                Bachelor of Information and Communication Technology (Hon.) Specialized in Software
+                                Technology</li>
+
+                            <li><span>Esoft Metro Campus</span><br>2021 - Present <br> 
+                                Pearson BTech HND in Computing Specialized in Network Engineering</li>
+
+                            <li><span>Bandaranayake College Gampaha</span><br>2016-2018 <br> 
+                                    G.C.E A/L 2018 - Engineering Technology <br> 
+                                    <ul>
+                                        <li> &nbsp ➢ Science for Technology - A<li>
+                                        <li> &nbsp ➢ Information and Communication Technology - B </li>
+                                        <li> &nbsp ➢ Engineering Technology - C</li>
+                                    </ul>
+                            </li>
+
+                            <li><span>Andiambalama Maha Vidyalaya</span><br>2009-2015 <br> 
+                                G.C.E O/L 2015 - 5A passes, 3B passes & 1C pass <br> 
+                                <ul>
+                                    <li> &nbsp ➢ Member of school prefect board - 2011 & 2015<li>
+                                    <li> &nbsp ➢ President of Environment Committee - 2013 </li>
+                                </ul>
+                        </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Certificate">
+                        <ul>
+                            <li><span>AI/ML Engineer Course</span><br>2023 - Present <br> 
+                                Offered by SLIIT</li>
+                            <li><span>Full Stack Developer Course</span><br>2023 - Present <br> 
+                                Offered by University of Moratuwa
+                            2</li>
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------services---------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> Skills </h1>
+        <div class="skill">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programming</h2>               
+            </div>
+            <div>
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h2>Software Design</h2>
+            </div>
+            <div>
+                <i class="fa-solid fa-person-circle-check"></i>
+                <h2>Personal</h2>
+            </div>
+        </div>
+        
+        <div class="skill-list">
+            <div class="programskill">
+                <img src="images/icon/programming/java.png"> <span class="imgheading"> Java </span>
+                <div class="progress-bar">
+                    <div class="java"><span>70%</span></div>
+                </div> 
+                
+                <img src="images/icon/programming/python.png"> <span class="imgheading"> Python </span>
+                <div class="progress-bar">
+                    <div class="python"><span>60%</span></div>
+                </div>
+
+                <img src="images/icon/programming/html.png"> <span class="imgheading"> HTML </span> 
+                <div class="progress-bar">
+                    <div class="html"><span>50%</span></div>
+                </div>
+
+                <img src="images/icon/programming/css.png"> <span class="imgheading"> CSS </span>
+                <div class="progress-bar">
+                    <div class="css"><span>50%</span></div>
+                </div>
+
+                <img src="images/icon/programming/mysql.png"> <span class="imgheading"> MySQL </span>
+                <div class="progress-bar">
+                    <div class="mysql"><span>45%</span></div>
+                </div>
+
+                <img src="images/icon/programming/csharp.png"> <span class="imgheading"> C# </span>
+                <div class="progress-bar">
+                    <div class="csharp"><span>40%</span></div>
+                </div>
+
+                <img src="images/icon/programming/c.png"> <span class="imgheading"> C </span>
+                <div class="progress-bar">
+                    <div class="c"><span>30%</span></div>
+                </div>
+
+                <img src="images/icon/programming/javascript.png"> <span class="imgheading"> JavaScript </span>
+                <div class="progress-bar">
+                    <div class="javascript"><span>30%</span></div>
+                </div>
+
+            </div>
+            <div class="softwaredesignskill">
+                <img src="images/icon/softwaredesign/UML.png"> <span class="imgheading"> UML Diagrams </span>
+                <div class="progress-bar">
+                    <div class="uml"><span>80%</span></div>
+                </div> 
+                
+                <img src="images/icon/softwaredesign/wireframe.png"> <span class="imgheading"> Wireframes </span>
+                <div class="progress-bar">
+                    <div class="wireframe"><span>100%</span></div>
+                </div>
+
+                <img src="images/icon/softwaredesign/uidesign.png"> <span class="imgheading"> UI Design </span> 
+                <div class="progress-bar">
+                    <div class="ui"><span>80%</span></div>
+                </div>
+
+                <img src="images/icon/softwaredesign/figma.png"> <span class="imgheading"> Figma </span>
+                <div class="progress-bar">
+                    <div class="figma"><span>50%</span></div>
+                </div>               
+            </div>
+
+
+            <div class="personalskill">
+                <img src="images/icon/personal/teamwork.png"> <span class="imgheading"> Teamwork </span>
+                <div class="progress-bar">
+                    <div class="teamwork"><span>80%</span></div>
+                </div> 
+                
+                <img src="images/icon/personal/conversation.png"> <span class="imgheading"> Communication </span>
+                <div class="progress-bar">
+                    <div class="communication"><span>70%</span></div>
+                </div>
+
+                <img src="images/icon/personal/patience.png"> <span class="imgheading"> Patience </span> 
+                <div class="progress-bar">
+                    <div class="patience"><span>90%</span></div>
+                </div>
+
+                <img src="images/icon/personal/problem.png"> <span class="imgheading"> Problem Solving </span>
+                <div class="progress-bar">
+                    <div class="problemsolving"><span>70%</span></div>
+                </div>
+
+                <img src="images/icon/personal/thinking.png"> <span class="imgheading"> Fast Learning </span>
+                <div class="progress-bar">
+                    <div class="fastlearning"><span>90%</span></div>
+                </div>
+
+                <img src="images/icon/personal/flexibility.png"> <span class="imgheading"> Flexibility </span>
+                <div class="progress-bar">
+                    <div class="flexibility"><span>100%</span></div>
+                </div>
+
+                <img src="images/icon/personal/dedication.png"> <span class="imgheading"> Dedication </span>
+                <div class="progress-bar">
+                    <div class="dedication"><span>100%</span></div>
+                </div>
+
+                <img src="images/icon/personal/time.png"> <span class="imgheading"> Time Management </span>
+                <div class="progress-bar">
+                    <div class="timemanagement"><span>70%</span></div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<!--------------------------portfolio------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/projects/Project Plan Image.png">
+                <div class="layer">
+                    <h3>Project Management Plan</h3>
+                    <p> This is one of my project management activity created for my own research. </p>
+                    <a href="images/Project Plan.zip" download><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/projects/JourneyAid Mobile Application.png">
+                <div class="layer">
+                    <h3>JourneyAid Mobile Application</h3>
+                    <p> This is a mobile application which suggest visiting places for users. Java is the 
+                        programming language used for this.</p>
+                    <a href="https://github.com/SriyanthaDeepal/JourneyAid"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/projects/Arogya Health Care Hospital Management Website.png">
+                <div class="layer">
+                    <h3>Arogya Health Care Hospital Management Website</h3>
+                    <p> This is a website which use to manage day to day activities in hospitals. HTML, CSS and javascript are
+                        used to build this website.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/projects/Ayuboo Drive PC Application.png">
+                <div class="layer">
+                    <h3>Ayuboo Drive PC Applicaton</h3>
+                    <p> This is a desktop application which can used to calculate hire fees of vehicle rental services. C# is the 
+                        programming language used for this.</p>
+                    <a href="https://github.com/SriyanthaDeepal/Vehicle-Hire-Amount-Calculation-System"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/SriyanthaDeepal" class="btn">See more</a>
+    </div>
+</div>
+
+<!------------------------Contact--------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> aasriyanthadeepal@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i></i> 076 2815533</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sriyantha-deepal-b2a7a5145/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.github.com/SriyanthaDeepal"><i class="fa-brands fa-github"></i></a> 
+                    <a href="https://www.hackerrank.com/aasriyanthadeep1"><i class="fa-brands fa-hackerrank"></i></a>                
+            </div>
+            <a href="images/CV_SriyanthaDeepal.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="emai" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button> 
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="copyright">
+    <p>copyright © Sriyantha.</p>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxgWGLsoqYlE0JRLRFSdBMXY2O9qthjh4MBW2BttL7MFWdRX2c4Dwc9-UM5U4wzwzrBYg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
