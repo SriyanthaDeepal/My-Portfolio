@@ -3,7 +3,7 @@ import { ArrowRight, ArrowUpRight, BookOpen, BriefcaseBusiness, Github, Linkedin
 import { experience, projects, skillGroups, type Project } from './data';
 
 const sections = [
-  ['about', 'About'], ['experience', 'Experience'], ['projects', 'Projects'],
+  ['about', 'About'], ['education', 'Education'], ['experience', 'Experience'], ['projects', 'Projects'],
   ['research', 'Research'], ['contact', 'Contact']
 ] as const;
 
@@ -91,7 +91,7 @@ export default function App() {
         </div>
       </aside>
       <main id="main">
-        <section id="about" className="section">
+        <section id="about" className="section about-section">
           <SectionTitle>About</SectionTitle>
           <div className="prose">
             <p>I'm a <strong>Software Technology honours graduate</strong> working across machine learning, application development and reliable infrastructure.</p>
@@ -104,14 +104,28 @@ export default function App() {
             <span><MapPin size={15} aria-hidden="true"/> Sri Lanka</span>
             <span><BookOpen size={15} aria-hidden="true"/> BICT (Hons), Software Technology</span>
           </div>
-          <div className="feature-card education">
-            <div className="feature-icon"><BookOpen size={22} aria-hidden="true"/></div>
-            <div>
-              <p className="eyebrow">EDUCATION</p>
-              <h3>University of Sri Jayewardenepura</h3>
-              <p>BICT (Honours) in Software Technology · Second Class Upper Division · GPA 3.48</p>
-              <p className="fine-print">Also completed a Pearson BTEC HND in Computing (Network Technology) at ESOFT Metro Campus.</p>
-            </div>
+        </section>
+
+        <section id="education" className="section education-section">
+          <SectionTitle>Education</SectionTitle>
+          <div className="education-list">
+            <article className="feature-card education-card">
+              <div className="feature-icon"><BookOpen size={22} aria-hidden="true"/></div>
+              <div className="education-card-content">
+                <p className="eyebrow">2020 — 2024 · BACHELOR'S DEGREE</p>
+                <h3>University of Sri Jayewardenepura</h3>
+                <p>BICT (Honours) specialising in Software Technology</p>
+                <p className="education-achievement">Second Class Upper Division <span aria-hidden="true">·</span> GPA 3.48</p>
+              </div>
+            </article>
+            <article className="feature-card education-card">
+              <div className="feature-icon"><BookOpen size={22} aria-hidden="true"/></div>
+              <div className="education-card-content">
+                <p className="eyebrow">2021 — 2023 · HIGHER NATIONAL DIPLOMA</p>
+                <h3>ESOFT Metro Campus</h3>
+                <p>Pearson BTEC HND in Computing (Network Technology)</p>
+              </div>
+            </article>
           </div>
         </section>
 
