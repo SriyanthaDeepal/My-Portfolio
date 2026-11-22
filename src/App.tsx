@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ArrowRight, ArrowUpRight, BookOpen, BriefcaseBusiness, Github, Linkedin, Mail, MapPin, Moon, Sun } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, BookOpen, BriefcaseBusiness, Github, Linkedin, Mail, MapPin, Moon, Sun, Download } from 'lucide-react';
 import { experience, projects, skillGroups, type Project } from './data';
 
 const sections = [
@@ -161,8 +161,17 @@ export default function App() {
           <p className="eyebrow">LET'S BUILD SOMETHING MEANINGFUL</p>
           <h2>Have a project or opportunity in mind?</h2>
           <p>I'm interested in AI/ML engineering, applied research and intelligent software products. If my work feels relevant, I'd love to connect.</p>
-          <a href="mailto:aasriyanthadeepal@gmail.com?subject=Hello%20Sriyantha" className="primary-button">Say hello <Mail size={17} aria-hidden="true"/></a>
-          <p className="contact-detail"><BriefcaseBusiness size={16} aria-hidden="true"/> AI/ML · Software Engineering · DevOps</p>
+          <div className="contact-actions">
+            <a href="mailto:aasriyanthadeepal@gmail.com?subject=Hello%20Sriyantha" className="primary-button">Say hello <Mail size={17} aria-hidden="true"/></a>
+            <a href={import.meta.env.BASE_URL + 'Sriyantha-Deepal-Resume.pdf'} className="outline-button" download="Sriyantha-Deepal-Resume.pdf">Download resume <Download size={17} aria-hidden="true"/></a>
+            <ExternalLink href="https://link.springer.com/chapter/10.1007/978-3-031-90893-4_5">View publication</ExternalLink>
+          </div>
+          <div className="contact-links">
+            <a href="mailto:aasriyanthadeepal@gmail.com"><Mail size={18} aria-hidden="true"/> Email <ArrowUpRight size={15} aria-hidden="true"/></a>
+            <a href="https://www.linkedin.com/in/sriyanthadeepal" target="_blank" rel="noopener noreferrer"><Linkedin size={18} aria-hidden="true"/> LinkedIn <ArrowUpRight size={15} aria-hidden="true"/></a>
+            <a href="https://github.com/SriyanthaDeepal" target="_blank" rel="noopener noreferrer"><Github size={18} aria-hidden="true"/> GitHub <ArrowUpRight size={15} aria-hidden="true"/></a>
+          </div>
+          <p className="contact-detail"><BriefcaseBusiness size={16} aria-hidden="true"/> Open to AI/ML, software engineering and research opportunities.</p>
         </section>
         <footer className="footer">
           <p>Designed and built by Sriyantha Deepal.</p>
