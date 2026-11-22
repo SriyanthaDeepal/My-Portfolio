@@ -166,7 +166,6 @@ export default function App() {
         </section>
         <footer className="footer">
           <p>Designed and built by Sriyantha Deepal.</p>
-          <p>React, TypeScript, and a little <span>red.</span></p>
           <a href="#top">Back to top <ArrowUpRight size={14} aria-hidden="true"/></a>
         </footer>
       </main>
