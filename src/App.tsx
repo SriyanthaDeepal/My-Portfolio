@@ -96,7 +96,9 @@ export default function App() {
           <div className="prose">
             <p>I'm a <strong>Software Technology honours graduate</strong> working across machine learning, application development and reliable infrastructure.</p>
             <p>I enjoy combining <strong>computer vision and sensor data fusion</strong> with thoughtful software engineering. I've built LLM applications using retrieval-augmented generation and worked with cloud tooling that helps software reach production.</p>
-            <p>I'm currently an <strong>Associate DevOps &amp; SRE Intern at Pearson Lanka</strong>, after an Ethical and Responsible AI engineering internship at Ethiksa. I'm also the first author of a Springer Nature research publication.</p>
+            <p>I'm currently an <strong>Associate DevOps &amp; SRE Intern at Pearson Lanka</strong>, supporting CI/CD workflows, AWS deployments and containerised applications.</p>
+            <p>Previously, I worked as an <strong>Ethical and Responsible AI Engineer Intern at Ethiksa</strong>, contributing to AI model design, evaluation, data preprocessing, vector embeddings and similarity search while applying responsible AI principles.</p>
+            <p>I'm also the <strong>first author of a Springer Nature research publication</strong> on multi-sensor terrain classification.</p>
           </div>
           <div className="facts">
             <span><MapPin size={15} aria-hidden="true"/> Sri Lanka</span>
