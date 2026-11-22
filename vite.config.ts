@@ -1,3 +1,4 @@
 import { defineConfig } from 'vite';
-// Project Pages is served from /My-Portfolio/; change base if hosting at the domain root.
-export default defineConfig({ base: '/My-Portfolio/' });
+
+// Relative asset URLs support both Vercel root deployments and GitHub project Pages.
+export default defineConfig({ base: './' });
