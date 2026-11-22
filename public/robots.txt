@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sriyanthadeepal.github.io/My-Portfolio/sitemap.xml

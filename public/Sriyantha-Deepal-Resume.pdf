@@ -1,0 +1,62 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2647 >>
+stream
+BT /F1 20 Tf 48 744 Td (SRIYANTHA DEEPAL) Tj ET
+BT /F1 11 Tf 48 713 Td (AI / ML ENGINEER | SOFTWARE DEVELOPER) Tj ET
+BT /F1 9 Tf 48 693 Td (Sri Lanka | aasriyanthadeepal@gmail.com) Tj ET
+BT /F1 9 Tf 48 677 Td (github.com/SriyanthaDeepal | linkedin.com/in/sriyanthadeepal) Tj ET
+BT /F1 11 Tf 48 652 Td (PROFILE) Tj ET
+BT /F1 9 Tf 48 632 Td (Software Technology honours graduate experienced in Responsible AI, machine learning,) Tj ET
+BT /F1 9 Tf 48 616 Td (LLM applications, applied research and DevOps. First-author Springer Nature publication.) Tj ET
+BT /F1 11 Tf 48 591 Td (EXPERIENCE) Tj ET
+BT /F1 9 Tf 48 571 Td (Pearson Lanka | Associate DevOps and SRE Intern | June 2026 - Present) Tj ET
+BT /F1 9 Tf 48 555 Td (CI/CD troubleshooting, AWS CloudFormation, Docker optimisation and Bash automation.) Tj ET
+BT /F1 9 Tf 48 539 Td (Ethiksa | Ethical and Responsible AI Engineer Intern | Sep 2025 - Mar 2026) Tj ET
+BT /F1 9 Tf 48 523 Td (AI architecture, model evaluation, vector embeddings, similarity search and preprocessing.) Tj ET
+BT /F1 11 Tf 48 498 Td (PROJECTS) Tj ET
+BT /F1 9 Tf 48 478 Td (Terrain Classification: CNN and SVM camera-LiDAR data fusion for terrain recognition.) Tj ET
+BT /F1 9 Tf 48 462 Td (Ethozai: LLM/RAG Responsible AI document assessment platform, Supabase and Gemini API.) Tj ET
+BT /F1 9 Tf 48 446 Td (Thripitaka Quest: LangChain RAG, Flask REST APIs and React frontend.) Tj ET
+BT /F1 9 Tf 48 430 Td (JourneyAid: Android Java app for route planning and nearby attractions; team lead.) Tj ET
+BT /F1 11 Tf 48 405 Td (SKILLS) Tj ET
+BT /F1 9 Tf 48 385 Td (Python, Java, C, Bash, React, Flask, .NET, PostgreSQL, REST APIs) Tj ET
+BT /F1 9 Tf 48 369 Td (TensorFlow, Keras, scikit-learn, Pandas, NumPy, CNN, SVM, sensor fusion) Tj ET
+BT /F1 9 Tf 48 353 Td (LangChain, RAG, embeddings, vector search, Responsible AI, Gemini API) Tj ET
+BT /F1 9 Tf 48 337 Td (AWS, Docker, CloudFormation, CI/CD, Git, GitHub, GitLab) Tj ET
+BT /F1 11 Tf 48 312 Td (PUBLICATION) Tj ET
+BT /F1 9 Tf 48 292 Td (Multi-sensor Data Fusion for Day and Night Terrain Type Classification) Tj ET
+BT /F1 9 Tf 48 276 Td (Springer Nature, LNNS | DOI: 10.1007/978-3-031-90893-4_5) Tj ET
+BT /F1 11 Tf 48 251 Td (EDUCATION) Tj ET
+BT /F1 9 Tf 48 231 Td (BICT \(Hons\), Software Technology | University of Sri Jayewardenepura | 2020-2024) Tj ET
+BT /F1 9 Tf 48 215 Td (GPA 3.48 | Second Class Upper Division) Tj ET
+BT /F1 9 Tf 48 199 Td (Pearson BTEC HND, Computing \(Network Technology\) | ESOFT | 2021-2023) Tj ET
+BT /F1 11 Tf 48 174 Td (CERTIFICATION) Tj ET
+BT /F1 9 Tf 48 154 Td (Supervised Machine Learning: Regression and Classification | DeepLearning.AI) Tj ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3009
+%%EOF
